@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=ja dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript  Operator</title>
+    <meta name="robot" content="noindex">
+  </head>
+  <body>
+    <h1>簡易計算機</h1>
+    <p>プルダウンからオペレータを選択，数値入力後イコールボタンを押してください．</p>
+    <form>
+      <input type="number" id="num1">
+      <select id="op">
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">*</option>
+        <option value="4">/</option>
+      </select>
+      <input type="number" id="num2">
+      <button type="button" name="button" onclick="cul();">=</button>
+      <input id="ans">
+    </form>
+    <script src="./function.js" charset="utf-8"></script>
+  </body>
+</html>
